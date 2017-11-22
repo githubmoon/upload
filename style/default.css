@@ -1,0 +1,68 @@
+body {
+	background-color: #dddddd;
+	margin:10px;
+	text-align: center;
+}
+table {
+	background-color: #999999;
+}
+th {
+	background-color: #aaaaaa;
+	text-align: center;
+	color: #ffffff;
+}
+td {
+	background-color: #ffffff;
+}
+.Highlight { color: #ff0000; }
+#Context {
+	border: 5px solid #666666;
+	width: 680px;
+	padding: 20px 40px 20px 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	line-height: 150%;
+	font-size: 14px;
+	text-align: left;
+}
+#Topic {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+#Menu {
+	text-align: center;
+}
+#Menu a {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#Tip1 {
+	float: left;
+	line-height: 26px;
+	padding-left: 10px;
+}
+#Tip1 a {
+	color: #ffffff;
+}
+#Tip2 {
+	line-height: 26px;
+	background-color: #999999;
+	text-align: right;
+	padding-right: 10px;
+}
+#Tip2 a {
+	color: #ffffff;
+}
+#Title {
+	font-weight: bold;
+}
+#Content {
+}
+#Copyright {
+	margin-top: 15px;
+	padding-top: 10px;
+	text-align: center;
+	border-top: solid 1px #999999;
+}
