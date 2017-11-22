@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7fd4612-873a-4d08-b134-0466e5657b98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/Code2Info.en.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/Code2Info.sc.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/help1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/help/help2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myup/UpLoadClass.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myup/help/Code2Info.en.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myup/help/Code2Info.sc.asp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myup/help/help1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myup/help/help2.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myup/style/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/default.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,8 +29,8 @@
       <file leaf-file-name="myup.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myup/upload/myup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="59" column="3" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+            <state relative-caret-position="232">
+              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -90,7 +78,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="236" />
     <option name="y" value="455" />
     <option name="width" value="1433" />
@@ -172,18 +160,17 @@
       <updated>1510627290525</updated>
       <workItem from="1510627292296" duration="2703000" />
       <workItem from="1511227749982" duration="8158000" />
-      <workItem from="1511313088326" duration="5158000" />
+      <workItem from="1511313088326" duration="5511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16019000" />
+    <option name="totallyTimeSpent" value="16372000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12604167" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12604167" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -313,8 +300,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myup/upload/myup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="59" column="3" lean-forward="true" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
+        <state relative-caret-position="232">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
           <folding />
         </state>
       </provider>
