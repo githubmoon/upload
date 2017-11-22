@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>批量上传</title>
+    <link rel="stylesheet" href="../style/default.css">
+    <script>
+
+        <!--
+        var bOnLoad = true;
+        function setFileFileds(num){
+            num = parseInt(num);
+            if(bOnLoad||confirm("修改附件数量将刷新所有文件域，确定继续！"))
+            {
+                for(var i=0,str="";i<num;i++){
+                    str+="<input name=\"strFile"+i+"\" type=\"file\" id=\"strFile"+i+"\"><br />";
+                }
+                document.getElementById("objFiles").innerHTML=str;
+                bOnLoad = false;
+            }
+        }
+        //-->
+    </script>
+
+</head>
+<body>
+<form id="formId" action="upload.asp" enctype="multipart/form-data" name="form1" method="post" onsubmit="return sub();">
+    <table width="100%" border="0" cellpadding="2" cellspacing="1">
+        <tr>
+            <th width="180">项目</th>
+            <th>内容</th>
+        </tr>
+        <tr>
+            <td width="180">邮件标题</td>
+            <td><input name="strTitle" type="text" id="strTitle" />
+            </td>
+        </tr>
+        <tr>
+            <td width="180">内容</td>
+            <td><textarea name="strContent" cols="45" rows="6" id="strContent"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td width="180" valign="top">选择附件数量
+                <select name="select" onchange="setFileFileds(this.value)">
+                    <option value="1" selected="selected">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </td>
+            <td id="objFiles"></td>
+        </tr>
+        <tr>
+            <td width="180">&nbsp;</td>
+            <td><input type="submit" name="Submit" value="提  交" />
+                <input type="reset" name="Submit2" value="重  置" /></td>
+        </tr>
+    </table>
+</form>
+
+<img src="./UpLoadFile/11.jpg" alt="">
+<img src="./UpLoadFile/ccss.png" alt="">
+<a href="./UpLoadFile/RumorUpLoadClass2.rar">RumorUpLoadClass2.rar</a>
+<script>setFileFileds(document.forms[0].select.value);</script>
+</body>
+</html>
